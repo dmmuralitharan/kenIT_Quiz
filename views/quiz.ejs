@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .container {
+      /* width: calc(100vw - 18px); */
+      width: 100vw;
+      height: 100vh;
+      background-color: #071952;
+      color: #ffffff;
+      font-size: 1.05rem;
+      overflow-x: hidden;
+
+    }
+
+    .sticky-element {
+      position: fixed;
+      top: 40%;
+      left: 0;
+      background-color: #071952;
+      padding: 12px;
+      border-radius: 0 5px  5px 0;
+    } 
+
+    .container>.quiz-container>header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .container>.quiz-container>header>h2 {
+      padding: 25px;
+    }
+
+    .container>.quiz-container>header>.team-name {
+      margin-right: 2rem;
+    }
+
+    .qusform {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      flex-direction: column;
+      background-color: #ffffff;
+      padding: 1rem 0;
+    }
+
+    .qusform>ul {
+      width: 100%;
+      margin-left: 37rem;
+      list-style: none;
+
+    }
+
+    .qusform .questions {
+      width: 55%;
+      background-color: #071952;
+      padding: 20px 20px;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+
+    .qusform .questions .ansopt {
+      padding: 0 0 0 20px;
+      margin-top: 20px;
+      list-style: none;
+    }
+
+    .qusform .questions .ansopt li {
+      line-height: 25px;
+    }
+
+    .container>.quiz-container>footer {
+      padding: 20px 0;
+      background-color: #071952;
+      text-align: center;
+    }
+
+    .sub {
+      margin-bottom: 1rem;
+      margin-left: 36rem;
+      width: 12%;
+      padding: 8px 12px;
+      margin-top: 0.75rem;
+      cursor: pointer;
+      /* border: none;
+        outline: none; */
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: 0.5s ease;
+      color: #fff;
+      background-color: #071952;
+      border: 1px solid #071952;
+    }
+
+    .sub:hover {
+      background-color: #0719522a;
+      border: 1px solid #071952;
+      color: #000;
+    }
+  </style>
+</head>
+</head>
+
+<body>
+  <div class="container">
+    <div class="quiz-container">
+      <header>
+        <h2>KENIT'23</h2>
+        
+
+        <h2 class="team-name">
+          <%= sessionName %>
+        </h2>
+      </header>
+      <h2  class="sticky-element">
+        <form action="/answer" method="post" id="myForm">
+          <span id="countdown" name="countdown" style="font-weight: bold;"></span>
+          <input type="text" name="hTimer" id="hTimer"  style="display: none;"/>
+      </h2>
+      <div class="qusform">
+        <ul>
+          <% questions.forEach((question,index)=> { %>
+            <li class="questions">
+              <p class="qustion">
+                <%= question.text %>
+              </p>
+              <ul class="ansopt">
+                <% question.options.forEach((option,c)=> { %>
+                  <li>
+                    <input type="radio" name="answer<%= index %>" value="<%=c%>" required="required">
+                    <span>
+                      <%= option %>
+                    </span> 
+                  </li>
+                  <% }) %>
+              </ul>
+            </li>
+            <% }) %>
+        </ul>
+
+        <input type="submit" class="sub" value="Submit">
+      </div>
+      </form>
+
+
+      <script>
+        let timeInSecs;
+        let ticker;
+
+        function startTimer(secs) {
+          timeInSecs = parseInt(secs);
+          ticker = setInterval("tick()", 1000);
+        }
+
+        function tick() {
+          let secs = timeInSecs;
+          if (secs > 0) {
+            timeInSecs--;
+          }
+          else {
+            const form = document.getElementById('myForm');
+            form.submit()
+            clearInterval(ticker);
+          }
+
+          let mins = Math.floor(secs / 60);
+          secs %= 60;
+          let pretty = ((mins < 10) ? "0" : "") + mins + ":" + ((secs < 10) ? "0" : "") + secs;
+
+          document.getElementById("countdown").innerHTML = pretty;
+          document.getElementById("hTimer").value = pretty;
+        }
+
+        startTimer(60*15);
+      </script>
+
+      <footer>
+        <h2>KENIT'23</h2>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>

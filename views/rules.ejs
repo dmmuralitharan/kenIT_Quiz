@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rules</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0);
+      }
+
+      .rules-container {
+        width:600px;
+        border: 2px solid #071952;
+        padding: 24px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 1.05rem;
+        /* background-color: #F2F7A1; */
+        background-color: #071952;
+        color: #fff;
+        -webkit-box-shadow: 4px 6px 6px -1px rgba(0, 0, 0, 0.61);
+        -moz-box-shadow: 4px 6px 6px -1px rgba(0, 0, 0, 0.61);
+        box-shadow: 4px 6px 6px -1px rgba(0, 0, 0, 0.61);
+      }
+
+      .rules-container hr {
+        margin-bottom: 1rem;
+      }
+
+      .rules-container .title {
+          margin-bottom: 0.5rem;
+        }
+        .rules-container ul {
+            padding: 0 2rem;
+            line-height: 40px;
+        }
+
+      .sub {
+        width: 20%;
+        float: right;
+        padding: 8px 12px;
+        margin-top: 0.75rem;
+        cursor: pointer;
+        /* border: none;
+        outline: none; */
+        border-radius: 5px;
+        font-weight: bold;
+        transition: 0.5s ease;
+        border: 1px solid #fff;
+      }
+
+      .sub:hover {
+        background-color: #0719522a;
+        border: 1px solid #fff;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="rules-container">
+        <div class="title">KENIT'23</div>
+        <hr />
+        <ul>
+          <li>You need to answer 25 questions in 15mins.</li>
+          <li>Each question carries 1 marks.</li>
+          <li>No negative marks.</li>
+          <li>Questions cannot be passed.</li>
+          <li>Judges decision is final.</li>
+        </ul>
+        <form action="/quiz" method="get">
+          <input type="submit" value="Start Quiz" class="sub" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
