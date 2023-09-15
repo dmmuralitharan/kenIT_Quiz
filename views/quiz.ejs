@@ -30,8 +30,8 @@
       left: 0;
       background-color: #071952;
       padding: 12px;
-      border-radius: 0 5px  5px 0;
-    } 
+      border-radius: 0 5px 5px 0;
+    }
 
     .container>.quiz-container>header {
       display: flex;
@@ -120,16 +120,16 @@
     <div class="quiz-container">
       <header>
         <h2>KENIT'23</h2>
-        
+
 
         <h2 class="team-name">
           <%= sessionName %>
         </h2>
       </header>
-      <h2  class="sticky-element">
+      <h2 class="sticky-element">
         <form action="/answer" method="post" id="myForm">
           <span id="countdown" name="countdown" style="font-weight: bold;"></span>
-          <input type="text" name="hTimer" id="hTimer"  style="display: none;"/>
+          <input type="text" name="hTimer" id="hTimer" style="display: none;" />
       </h2>
       <div class="qusform">
         <ul>
@@ -144,7 +144,7 @@
                     <input type="radio" name="answer<%= index %>" value="<%=c%>" required="required">
                     <span>
                       <%= option %>
-                    </span> 
+                    </span>
                   </li>
                   <% }) %>
               </ul>
@@ -185,9 +185,18 @@
           document.getElementById("hTimer").value = pretty;
         }
 
-        startTimer(60*15);
-      </script>
+        startTimer(60 * 15);
 
+        function back() {
+          window.history.forward();
+        }
+
+        setTimeout("back()", 0);
+
+        window.onunload = function () {
+          null;
+        };
+      </script>
       <footer>
         <h2>KENIT'23</h2>
       </footer>
