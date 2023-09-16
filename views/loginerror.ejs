@@ -22,10 +22,8 @@
         background-color: #071952;
         color: #ffffff;
         font-size: 1.05rem;
-
       }
 
-    
       .sub {
         width: 10%;
         padding: 8px 12px;
@@ -40,18 +38,22 @@
         text-align: center;
       }
       .sub:hover {
-        background-color:#0719522a ;
+        background-color: #0719522a;
         border: 1px solid #fff;
         color: #fff;
       }
-
     </style>
+    <script>
+      document.addEventListener("contextmenu", (event) =>
+        event.preventDefault()
+      );
+    </script>
   </head>
   <body>
     <div class="container">
-        <h1>Login error</h1>
-        <h2>Check your credentials</h2>
-        <a href="/login" class="sub">Back</a>
+      <h1>Login error</h1>
+      <h2>Check your credentials</h2>
+      <a href="/login" class="sub">Back</a>
     </div>
   </body>
 </html>

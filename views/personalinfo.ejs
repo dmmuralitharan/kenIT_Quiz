@@ -19,7 +19,6 @@
         width: 100vw;
         height: 100vh;
         background-color: rgba(255, 255, 255, 0);
-       
       }
 
       .login-container {
@@ -68,11 +67,16 @@
       }
 
       .sub:hover {
-        background-color:#0719522a ;
+        background-color: #0719522a;
         border: 1px solid #fff;
         color: #fff;
       }
     </style>
+    <script>
+      document.addEventListener("contextmenu", (event) =>
+        event.preventDefault()
+      );
+    </script>
   </head>
   <body>
     <div class="container">
@@ -113,7 +117,7 @@
               required="required"
             />
           </div>
-    
+
           <input type="submit" value="Submit" class="sub" />
         </form>
       </div>
