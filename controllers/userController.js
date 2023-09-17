@@ -25,6 +25,10 @@ exports.insertInfo = async (req, res) => {
   const { participant1, participant2, clgname } = req.body;
   try {
     const username = req.session.userName;
+    req.session.participant1 = participant1
+    req.session.participant2 = participant2
+    req.session.clgname = clgname
+
     const newInfo = await Info.create({
       participant1,
       participant2,
@@ -63,6 +67,9 @@ exports.checkAnswer = async (req, res) => {
     }
 
     const username = req.session.userName;
+    const participant1 = req.session.participant1;
+    const participant2 = req.session.participant2;
+    const collegeName = req.session.clgname;
     const TimeString = req.body.hTimer;
     const time1Str = "15:00";
     const time2Str = TimeString; 
@@ -84,6 +91,9 @@ exports.checkAnswer = async (req, res) => {
     
     const newResult = await QuizResult.create({
       username,
+      participant1,
+      participant2,
+      collegeName,
       answerCount: count,
       timerTime:formattedDifference,
     });
