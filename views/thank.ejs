@@ -22,6 +22,13 @@
         color: #ffffff;
         font-size: 1.05rem;
       }
+
+      .non-selectable {
+        user-select: none;
+        -moz-user-select: none; /* Firefox */
+        -webkit-user-select: none; /* Safari and Chrome */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+      }
     </style>
     <script>
       document.addEventListener("contextmenu", (event) =>
@@ -29,7 +36,7 @@
       );
     </script>
   </head>
-  <body>
+  <body class="non-selectable">
     <div class="container">
       <!-- <h1>Thank You !!! <%= //count %></h1> -->
       <h1>Thank You !!!</h1>

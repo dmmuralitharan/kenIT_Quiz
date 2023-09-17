@@ -42,6 +42,13 @@
         border: 1px solid #fff;
         color: #fff;
       }
+
+      .non-selectable {
+        user-select: none;
+        -moz-user-select: none; /* Firefox */
+        -webkit-user-select: none; /* Safari and Chrome */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+      }
     </style>
     <script>
       document.addEventListener("contextmenu", (event) =>
@@ -49,7 +56,7 @@
       );
     </script>
   </head>
-  <body>
+  <body class="non-selectable">
     <div class="container">
       <h1>Login error</h1>
       <h2>Check your credentials</h2>

@@ -111,6 +111,13 @@
       border: 1px solid #071952;
       color: #000;
     }
+
+    .non-selectable {
+    user-select: none;
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Safari and Chrome */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+  }
   </style>
   <script>
      document.addEventListener('contextmenu', event => event.preventDefault());
@@ -118,7 +125,7 @@
 </head>
 </head>
 
-<body>
+<body class="non-selectable">
   <div class="container">
     <div class="quiz-container">
       <header>

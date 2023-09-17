@@ -80,3 +80,10 @@
   border: 1px solid #fff;
   color: #fff;
 }
+
+.non-selectable {
+  user-select: none;
+  -moz-user-select: none; /* Firefox */
+  -webkit-user-select: none; /* Safari and Chrome */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
