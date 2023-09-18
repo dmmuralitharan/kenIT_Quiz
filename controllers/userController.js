@@ -71,6 +71,7 @@ exports.checkAnswer = async (req, res) => {
     const participant2 = req.session.participant2;
     const collegeName = req.session.clgname;
     const TimeString = req.body.hTimer;
+    const refreshCount = req.body.refreshcount;
     const time1Str = "15:00";
     const time2Str = TimeString; 
     
@@ -95,6 +96,7 @@ exports.checkAnswer = async (req, res) => {
       participant2,
       collegeName,
       answerCount: count,
+      refreshCounter : refreshCount,
       timerTime:formattedDifference,
     });
 

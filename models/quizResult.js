@@ -6,6 +6,7 @@ const quizResultSchema = new mongoose.Schema({
   participant2 : {type:String,required : true},
   collegeName : {type:String,required : true},
   answerCount: Number,
+  refreshCounter : Number,
   timestamp: { type: Date, default: Date.now },
   timerTime: { type: String, required: true },
 });

@@ -95,8 +95,6 @@
       padding: 8px 12px;
       margin-top: 0.75rem;
       cursor: pointer;
-      /* border: none;
-        outline: none; */
       border-radius: 5px;
       font-weight: bold;
       font-size: 1rem;
@@ -113,14 +111,17 @@
     }
 
     .non-selectable {
-    user-select: none;
-    -moz-user-select: none; /* Firefox */
-    -webkit-user-select: none; /* Safari and Chrome */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-  }
+      user-select: none;
+      -moz-user-select: none;
+      /* Firefox */
+      -webkit-user-select: none;
+      /* Safari and Chrome */
+      -ms-user-select: none;
+      /* Internet Explorer/Edge */
+    }
   </style>
   <script>
-     document.addEventListener('contextmenu', event => event.preventDefault());
+    document.addEventListener('contextmenu', event => event.preventDefault());
   </script>
 </head>
 </head>
@@ -161,7 +162,7 @@
             </li>
             <% }) %>
         </ul>
-
+        <input type="text" name="refreshcount" id="refreshcount" >
         <input type="submit" class="sub" value="Submit">
       </div>
       </form>
@@ -197,6 +198,7 @@
 
         startTimer(60 * 15);
 
+        // stop backward
         function back() {
           window.history.forward();
         }
@@ -206,6 +208,25 @@
         window.onunload = function () {
           null;
         };
+
+        // count refreshment
+
+        function incrementRefreshCount() {
+          if (typeof Storage !== "undefined") {
+            let count = localStorage.getItem("refreshCount") || 0;
+
+            count++;
+
+            console.log(count)
+            document.getElementById("refreshcount").value = count;
+            localStorage.setItem("refreshCount", count);
+          } else {
+            console.log("localStorage is not supported in this browser.");
+          }
+        }
+      
+        window.addEventListener("load", incrementRefreshCount);
+
       </script>
       <footer>
         <h2>KENIT'23</h2>
