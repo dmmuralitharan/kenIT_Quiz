@@ -11,7 +11,7 @@ const quizResultSchema = new mongoose.Schema({
   timerTime: { type: String, required: true },
 });
 
-const QuizResult = mongoose.model("QuizResult", quizResultSchema, "results");
-// const QuizResult = mongoose.model("QuizResult", quizResultSchema, "Results");
+// const QuizResult = mongoose.model("QuizResult", quizResultSchema, "results");
+const QuizResult = mongoose.model("QuizResult", quizResultSchema, "Results");
 
 module.exports = QuizResult;

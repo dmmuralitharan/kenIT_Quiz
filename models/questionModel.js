@@ -22,7 +22,7 @@ function arrayLengthValidator(val) {
   return val.length === 4;
 }
 
-const Questions = mongoose.model('Questions', questionSchema,'testQuestion');
-// const Questions = mongoose.model('Questions', questionSchema,'Questions');
+// const Questions = mongoose.model('Questions', questionSchema,'testQuestion');
+const Questions = mongoose.model('Questions', questionSchema,'Questions');
 
 module.exports = Questions;

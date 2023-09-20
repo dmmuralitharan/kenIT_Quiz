@@ -7,7 +7,7 @@ const infoSchema = new mongoose.Schema({
        username: String
 });
 
-const Info = mongoose.model('Info', infoSchema, 'testPersonalInfo');
-// const Info = mongoose.model('Info', infoSchema, 'Teaminfo');
+// const Info = mongoose.model('Info', infoSchema, 'testPersonalInfo');
+const Info = mongoose.model('Info', infoSchema, 'Teaminfo');
 
 module.exports = Info;
