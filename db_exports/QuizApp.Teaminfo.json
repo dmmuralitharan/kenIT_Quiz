@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "650bc66a198f0e4d45522de1"
+  },
+  "participant1": "test",
+  "participant2": "test",
+  "clgname": "test",
+  "username": "team0",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd59d198f0e4d45522df3"
+  },
+  "participant1": "A.Arun",
+  "participant2": "J. Rajavel",
+  "clgname": "SRNMC",
+  "username": "team4",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd5aa198f0e4d45522df6"
+  },
+  "participant1": "SANGEETHA KALAIVANI M",
+  "participant2": "VALLI JEYAKODI S",
+  "clgname": "ANJAC",
+  "username": "team6",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd5ad198f0e4d45522df9"
+  },
+  "participant1": "PRAKASH G",
+  "participant2": "MUTHUSELVAN K",
+  "clgname": "GASC SIVAKASI",
+  "username": "team5",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd5ad198f0e4d45522dfb"
+  },
+  "participant1": "Karmegam M",
+  "participant2": "Rishikesh K",
+  "clgname": "ANJAC Sivakasi",
+  "username": "team3",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd5af198f0e4d45522dfd"
+  },
+  "participant1": "Meenatchi M",
+  "participant2": "Kaviya A",
+  "clgname": "ANJA College (SF)",
+  "username": "team10",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd5b2198f0e4d45522dff"
+  },
+  "participant1": "Edwin.J.A.",
+  "participant2": "Bala.B",
+  "clgname": "The American College",
+  "username": "team2",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd5bd198f0e4d45522e03"
+  },
+  "participant1": "JANAKI RAMAN M ",
+  "participant2": "FASILAHAMED S",
+  "clgname": "SRI KALISWARI COLLEGE",
+  "username": "team8",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd5bf198f0e4d45522e06"
+  },
+  "participant1": "S.AMALA RUFINA",
+  "participant2": "R.R . KALA RANJANI",
+  "clgname": "LADY DOAK COLLEGE",
+  "username": "team1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd5c1198f0e4d45522e08"
+  },
+  "participant1": "MANOJ KUMAR R",
+  "participant2": "ASIM KHAN E",
+  "clgname": "SRI KALISWARI COLLEGE",
+  "username": "team9",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd5ce198f0e4d45522e0e"
+  },
+  "participant1": "NARESH N",
+  "participant2": "AJAY KUMAR M A",
+  "clgname": "THE AMERICAN COLLEGE",
+  "username": "team7",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd5d1198f0e4d45522e10"
+  },
+  "participant1": "gunaseela vishnu S",
+  "participant2": "nithishkumar M",
+  "clgname": "KLU",
+  "username": "team13",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd5d6198f0e4d45522e13"
+  },
+  "participant1": "B.Roopasri",
+  "participant2": "B.Rakshanaa",
+  "clgname": "SFRC",
+  "username": "team18",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd5e8198f0e4d45522e19"
+  },
+  "participant1": "S.Anandha kumar",
+  "participant2": "P.Saravana pandi",
+  "clgname": "Kalasalingam university",
+  "username": "team14",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd648198f0e4d45522e1d"
+  },
+  "participant1": "B.Guruprasath",
+  "participant2": "V.Santhosh Kumar",
+  "clgname": "kalasalingam university",
+  "username": "team12",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6516720ae429a59dd1291ade"
+  },
+  "participant1": "z",
+  "participant2": "z",
+  "clgname": "z",
+  "username": "team60",
+  "__v": 0
+}]

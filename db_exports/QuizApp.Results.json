@@ -1,0 +1,256 @@
+[{
+  "_id": {
+    "$oid": "650bc6be198f0e4d45522de5"
+  },
+  "username": "team0",
+  "participant1": "test",
+  "participant2": "test",
+  "collegeName": "test",
+  "answerCount": 19,
+  "refreshCounter": 1,
+  "timerTime": "1:20",
+  "timestamp": {
+    "$date": "2023-09-21T04:29:50.970Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd8fd198f0e4d45522e21"
+  },
+  "username": "team1",
+  "participant1": "S.AMALA RUFINA",
+  "participant2": "R.R . KALA RANJANI",
+  "collegeName": "LADY DOAK COLLEGE",
+  "answerCount": 13,
+  "refreshCounter": 1,
+  "timerTime": "13:41",
+  "timestamp": {
+    "$date": "2023-09-21T05:47:41.631Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd930198f0e4d45522e24"
+  },
+  "username": "team4",
+  "participant1": "A.Arun",
+  "participant2": "J. Rajavel",
+  "collegeName": "SRNMC",
+  "answerCount": 5,
+  "refreshCounter": 1,
+  "timerTime": "14:58",
+  "timestamp": {
+    "$date": "2023-09-21T05:48:32.833Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd93a198f0e4d45522e27"
+  },
+  "username": "team3",
+  "participant1": "Karmegam M",
+  "participant2": "Rishikesh K",
+  "collegeName": "ANJAC Sivakasi",
+  "answerCount": 16,
+  "refreshCounter": 1,
+  "timerTime": "14:59",
+  "timestamp": {
+    "$date": "2023-09-21T05:48:42.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd943198f0e4d45522e2a"
+  },
+  "username": "team2",
+  "participant1": "Edwin.J.A.",
+  "participant2": "Bala.B",
+  "collegeName": "The American College",
+  "answerCount": 9,
+  "refreshCounter": 1,
+  "timerTime": "14:59",
+  "timestamp": {
+    "$date": "2023-09-21T05:48:51.654Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd948198f0e4d45522e2d"
+  },
+  "username": "team6",
+  "participant1": "SANGEETHA KALAIVANI M",
+  "participant2": "VALLI JEYAKODI S",
+  "collegeName": "ANJAC",
+  "answerCount": 10,
+  "refreshCounter": 1,
+  "timerTime": "14:30",
+  "timestamp": {
+    "$date": "2023-09-21T05:48:56.454Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd94e198f0e4d45522e30"
+  },
+  "username": "team10",
+  "participant1": "Meenatchi M",
+  "participant2": "Kaviya A",
+  "collegeName": "ANJA College (SF)",
+  "answerCount": 9,
+  "refreshCounter": 1,
+  "timerTime": "14:59",
+  "timestamp": {
+    "$date": "2023-09-21T05:49:02.288Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd94e198f0e4d45522e33"
+  },
+  "username": "team5",
+  "participant1": "PRAKASH G",
+  "participant2": "MUTHUSELVAN K",
+  "collegeName": "GASC SIVAKASI",
+  "answerCount": 12,
+  "refreshCounter": 1,
+  "timerTime": "14:59",
+  "timestamp": {
+    "$date": "2023-09-21T05:49:02.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd94f198f0e4d45522e36"
+  },
+  "username": "team9",
+  "participant1": "MANOJ KUMAR R",
+  "participant2": "ASIM KHAN E",
+  "collegeName": "SRI KALISWARI COLLEGE",
+  "answerCount": 14,
+  "refreshCounter": 1,
+  "timerTime": "14:57",
+  "timestamp": {
+    "$date": "2023-09-21T05:49:03.177Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd953198f0e4d45522e39"
+  },
+  "username": "team14",
+  "participant1": "S.Anandha kumar",
+  "participant2": "P.Saravana pandi",
+  "collegeName": "Kalasalingam university",
+  "answerCount": 5,
+  "refreshCounter": 1,
+  "timerTime": "14:17",
+  "timestamp": {
+    "$date": "2023-09-21T05:49:07.361Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd957198f0e4d45522e3c"
+  },
+  "username": "team13",
+  "participant1": "gunaseela vishnu S",
+  "participant2": "nithishkumar M",
+  "collegeName": "KLU",
+  "answerCount": 14,
+  "refreshCounter": 1,
+  "timerTime": "14:51",
+  "timestamp": {
+    "$date": "2023-09-21T05:49:11.399Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd958198f0e4d45522e3f"
+  },
+  "username": "team8",
+  "participant1": "JANAKI RAMAN M ",
+  "participant2": "FASILAHAMED S",
+  "collegeName": "SRI KALISWARI COLLEGE",
+  "answerCount": 10,
+  "refreshCounter": 1,
+  "timerTime": "14:59",
+  "timestamp": {
+    "$date": "2023-09-21T05:49:12.173Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd959198f0e4d45522e42"
+  },
+  "username": "team18",
+  "participant1": "B.Roopasri",
+  "participant2": "B.Rakshanaa",
+  "collegeName": "SFRC",
+  "answerCount": 7,
+  "refreshCounter": 1,
+  "timerTime": "14:51",
+  "timestamp": {
+    "$date": "2023-09-21T05:49:13.024Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd95e198f0e4d45522e45"
+  },
+  "username": "team7",
+  "participant1": "NARESH N",
+  "participant2": "AJAY KUMAR M A",
+  "collegeName": "THE AMERICAN COLLEGE",
+  "answerCount": 10,
+  "refreshCounter": 1,
+  "timerTime": "14:59",
+  "timestamp": {
+    "$date": "2023-09-21T05:49:18.680Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650bd960198f0e4d45522e48"
+  },
+  "username": "team12",
+  "participant1": "B.Guruprasath",
+  "participant2": "V.Santhosh Kumar",
+  "collegeName": "kalasalingam university",
+  "answerCount": 10,
+  "refreshCounter": 1,
+  "timerTime": "13:1",
+  "timestamp": {
+    "$date": "2023-09-21T05:49:20.643Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65167242e429a59dd1291ae2"
+  },
+  "username": "team60",
+  "participant1": "z",
+  "participant2": "z",
+  "collegeName": "z",
+  "answerCount": 5,
+  "refreshCounter": 1,
+  "timerTime": "0:33",
+  "timestamp": {
+    "$date": "2023-09-29T06:44:18.219Z"
+  },
+  "__v": 0
+}]

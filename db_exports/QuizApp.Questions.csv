@@ -1,0 +1,26 @@
+_id,text,correctOption,options[0],options[1],options[2],options[3]
+65096d15378e8c0a62dea446,Geeta walks 20 Meters towards North. She then turns left and walk 40 meters. She again turns left and walks 20 meter. Further she moves 20 Meters after turning to the right. How far is she from her original position ?,0,60 Meters,50 Meters,30 Meters,20 Meters
+65096d3a378e8c0a62dea447,How long is an IPv6 address ?,3,32 bits,128 bytes,64 bits,128 bits
+65096d4f378e8c0a62dea448,What does ISO stands for ?,1,International Software Organisation,International Standards Organisation,Industrial Software Organisation,Industrial Standards Organisation
+65096d67378e8c0a62dea449,What keyword is used to define a constant in Java ?,3,static,constant,const,final
+65096d83378e8c0a62dea44a,What is the correct syntax to output the type of a variable or object in Python ?,2,print(typeof(x)),print(typeOf(x)),print(type(x)),print(typeof  x)
+65096d9b378e8c0a62dea44b,"In a certain code, MENTION is written as LNEITNO. How is PATTERN written in that code ?",2,APTTREM,PTAETNR,OTAETNR,OTAETRN
+65096f63378e8c0a62dea44c,Which HTML5 element is used to play audio files directly in a webpage without the need for external plugins ?,0,<audio>,<sound>,<music>,<play>
+65096f8c378e8c0a62dea44d,Which command use for measure the round-trip time; it takes for packets to travel from your computer to a remote destination ?,2,ipconfig,netstat,tracert,ping
+65096fd9378e8c0a62dea44e,Which keyword is used to create a subclass in java ?,3,sub,class,inherits,extends
+65097000378e8c0a62dea44f,Where is a hub specified in the OSI model ?,1,Session layer,Physical layer,Data Link layer,Application layer
+65097037378e8c0a62dea450,"‘A + B’ means ‘A is the daughter of B’; ‘A × B’ means ‘A is the son of B’ and ‘A – B’ means ‘A is the wife of B’. If ‘T – S × B – M’, which of the following is not true ?",3,S is the son of B,B is the mother of S,M is the husband of B,S is the daughter of B
+6509705c378e8c0a62dea451,Which file system is commonly used in Windows operating systems for managing and organizing data on storage devices ?,0,NTFS (New Technology File System),HFS+ (Hierarchical File System Plus),EXT4 (Fourth Extended File System),FAT32 (File Allocation Table 32)
+6509707d378e8c0a62dea452,Which temporarily store frequently used data for quick access ?,2,Virtual Memory,Flash Memory,Cache Memory,Registers
+650970c1378e8c0a62dea453,What CSS property is used to distribute space between and around items along the main axis of a Flex Container ?,0,justify-content,align-content,flex-align,space-around
+65097104378e8c0a62dea454,What is the purpose of the HTML 'meta' tag ?,1,To create a navigation menu.,To define the document's character encoding and provide metadata about the page.,To insert a line break.,To define a section of text.
+65097134378e8c0a62dea455,What is the purpose of the 'cron' system in Linux ?,1,To manage system hardware components.,To schedule and automate recurring tasks and jobs.,To monitor network traffic.,To configure user accounts.
+6509716b378e8c0a62dea456,Which shell is the default command-line interface for most Linux distributions ?,2,PowerShell,Command Prompt (cmd),Bash (Bourne-Again Shell),Zsh (Z Shell)
+6509719d378e8c0a62dea457,"Look at this series: 8, 6, 9, 23, 87 , ... What number should come next ?",3,128,226,324,429
+6509b3d6067b584eddf64f41,"When an element is set to position: “absolute”, what is it positioned relative to by default in css ?",1,The viewport,Its parent element,The nearest positioned ancestor,The center of the screen
+6509b504067b584eddf64f42,"It was Saturday on January 1, 2005. Find the day of the week on January 1, 2010. ? ",1,Tuesday,Friday,Wednesday,Sunday
+6509b554067b584eddf64f43,What flavor of Network Address Translation can be used to have one IP address allow many users to connect to the global Internet ?,3,NAT,Static,Dynamic,PAT
+6509b59f067b584eddf64f44,"Which collection is ordered, changeable, and allows duplicate members in python ?",0,List,Set,Dictionary,Tuple
+6509b669067b584eddf64f45,What is the purpose of the HTML5 'data-*' attribute?,2,To define a custom data type.,To embed external data sources.,To store custom data private to the page or application.,To link to external resources.
+6509b6e0067b584eddf64f46,What is the typical location of a bootloader in a computer system ?,1,On a secondary hard drive partition.,In the BIOS or UEFI firmware.,In the computer's RAM.,In the operating system's kernel.
+6509b70f067b584eddf64f47,Which of the following can be used for a variable name in Java ?,3,byte,throw,this,extend

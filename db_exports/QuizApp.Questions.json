@@ -1,0 +1,325 @@
+[{
+  "_id": {
+    "$oid": "65096d15378e8c0a62dea446"
+  },
+  "text": "Geeta walks 20 Meters towards North. She then turns left and walk 40 meters. She again turns left and walks 20 meter. Further she moves 20 Meters after turning to the right. How far is she from her original position ?",
+  "correctOption": 0,
+  "options": [
+    "60 Meters",
+    "50 Meters",
+    "30 Meters",
+    "20 Meters"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65096d3a378e8c0a62dea447"
+  },
+  "text": "How long is an IPv6 address ?",
+  "correctOption": 3,
+  "options": [
+    "32 bits",
+    "128 bytes",
+    "64 bits",
+    "128 bits"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65096d4f378e8c0a62dea448"
+  },
+  "text": "What does ISO stands for ?",
+  "correctOption": 1,
+  "options": [
+    "International Software Organisation",
+    "International Standards Organisation",
+    "Industrial Software Organisation",
+    "Industrial Standards Organisation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65096d67378e8c0a62dea449"
+  },
+  "text": "What keyword is used to define a constant in Java ?",
+  "correctOption": 3,
+  "options": [
+    "static",
+    "constant",
+    "const",
+    "final"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65096d83378e8c0a62dea44a"
+  },
+  "text": "What is the correct syntax to output the type of a variable or object in Python ?",
+  "correctOption": 2,
+  "options": [
+    "print(typeof(x))",
+    "print(typeOf(x))",
+    "print(type(x))",
+    "print(typeof  x)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65096d9b378e8c0a62dea44b"
+  },
+  "text": "In a certain code, MENTION is written as LNEITNO. How is PATTERN written in that code ?",
+  "correctOption": 2,
+  "options": [
+    "APTTREM",
+    "PTAETNR",
+    "OTAETNR",
+    "OTAETRN"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65096f63378e8c0a62dea44c"
+  },
+  "text": "Which HTML5 element is used to play audio files directly in a webpage without the need for external plugins ?",
+  "correctOption": 0,
+  "options": [
+    "<audio>",
+    "<sound>",
+    "<music>",
+    "<play>"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65096f8c378e8c0a62dea44d"
+  },
+  "text": "Which command use for measure the round-trip time; it takes for packets to travel from your computer to a remote destination ?",
+  "correctOption": 2,
+  "options": [
+    "ipconfig",
+    "netstat",
+    "tracert",
+    "ping"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65096fd9378e8c0a62dea44e"
+  },
+  "text": "Which keyword is used to create a subclass in java ?",
+  "correctOption": 3,
+  "options": [
+    "sub",
+    "class",
+    "inherits",
+    "extends"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65097000378e8c0a62dea44f"
+  },
+  "text": "Where is a hub specified in the OSI model ?",
+  "correctOption": 1,
+  "options": [
+    "Session layer",
+    "Physical layer",
+    "Data Link layer",
+    "Application layer"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65097037378e8c0a62dea450"
+  },
+  "text": "‘A + B’ means ‘A is the daughter of B’; ‘A × B’ means ‘A is the son of B’ and ‘A – B’ means ‘A is the wife of B’. If ‘T – S × B – M’, which of the following is not true ?",
+  "correctOption": 3,
+  "options": [
+    "S is the son of B",
+    "B is the mother of S",
+    "M is the husband of B",
+    "S is the daughter of B"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6509705c378e8c0a62dea451"
+  },
+  "text": "Which file system is commonly used in Windows operating systems for managing and organizing data on storage devices ?",
+  "correctOption": 0,
+  "options": [
+    "NTFS (New Technology File System)",
+    "HFS+ (Hierarchical File System Plus)",
+    "EXT4 (Fourth Extended File System)",
+    "FAT32 (File Allocation Table 32)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6509707d378e8c0a62dea452"
+  },
+  "text": "Which temporarily store frequently used data for quick access ?",
+  "correctOption": 2,
+  "options": [
+    "Virtual Memory",
+    "Flash Memory",
+    "Cache Memory",
+    "Registers"
+  ]
+},
+{
+  "_id": {
+    "$oid": "650970c1378e8c0a62dea453"
+  },
+  "text": "What CSS property is used to distribute space between and around items along the main axis of a Flex Container ?",
+  "correctOption": 0,
+  "options": [
+    "justify-content",
+    "align-content",
+    "flex-align",
+    "space-around"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65097104378e8c0a62dea454"
+  },
+  "text": "What is the purpose of the HTML 'meta' tag ?",
+  "correctOption": 1,
+  "options": [
+    "To create a navigation menu.",
+    "To define the document's character encoding and provide metadata about the page.",
+    "To insert a line break.",
+    "To define a section of text."
+  ]
+},
+{
+  "_id": {
+    "$oid": "65097134378e8c0a62dea455"
+  },
+  "text": "What is the purpose of the 'cron' system in Linux ?",
+  "correctOption": 1,
+  "options": [
+    "To manage system hardware components.",
+    "To schedule and automate recurring tasks and jobs.",
+    "To monitor network traffic.",
+    "To configure user accounts."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6509716b378e8c0a62dea456"
+  },
+  "text": "Which shell is the default command-line interface for most Linux distributions ?",
+  "correctOption": 2,
+  "options": [
+    "PowerShell",
+    "Command Prompt (cmd)",
+    "Bash (Bourne-Again Shell)",
+    "Zsh (Z Shell)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6509719d378e8c0a62dea457"
+  },
+  "text": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next ?",
+  "correctOption": 3,
+  "options": [
+    "128",
+    "226",
+    "324",
+    "429"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6509b3d6067b584eddf64f41"
+  },
+  "text": "When an element is set to position: “absolute”, what is it positioned relative to by default in css ?",
+  "correctOption": 1,
+  "options": [
+    "The viewport",
+    "Its parent element",
+    "The nearest positioned ancestor",
+    "The center of the screen"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6509b504067b584eddf64f42"
+  },
+  "text": "It was Saturday on January 1, 2005. Find the day of the week on January 1, 2010. ? ",
+  "correctOption": 1,
+  "options": [
+    "Tuesday",
+    "Friday",
+    "Wednesday",
+    "Sunday"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6509b554067b584eddf64f43"
+  },
+  "text": "What flavor of Network Address Translation can be used to have one IP address allow many users to connect to the global Internet ?",
+  "correctOption": 3,
+  "options": [
+    "NAT",
+    "Static",
+    "Dynamic",
+    "PAT"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6509b59f067b584eddf64f44"
+  },
+  "text": "Which collection is ordered, changeable, and allows duplicate members in python ?",
+  "correctOption": 0,
+  "options": [
+    "List",
+    "Set",
+    "Dictionary",
+    "Tuple"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6509b669067b584eddf64f45"
+  },
+  "text": "What is the purpose of the HTML5 'data-*' attribute?",
+  "correctOption": 2,
+  "options": [
+    "To define a custom data type.",
+    "To embed external data sources.",
+    "To store custom data private to the page or application.",
+    "To link to external resources."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6509b6e0067b584eddf64f46"
+  },
+  "text": "What is the typical location of a bootloader in a computer system ?",
+  "correctOption": 1,
+  "options": [
+    "On a secondary hard drive partition.",
+    "In the BIOS or UEFI firmware.",
+    "In the computer's RAM.",
+    "In the operating system's kernel."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6509b70f067b584eddf64f47"
+  },
+  "text": "Which of the following can be used for a variable name in Java ?",
+  "correctOption": 3,
+  "options": [
+    "byte",
+    "throw",
+    "this",
+    "extend"
+  ]
+}]
