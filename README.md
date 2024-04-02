@@ -1,4 +1,3 @@
-
 # KenIT (QUIZ)
 
 🚀 A dynamic quiz application developed as part of my College Kenit program! 📚
@@ -8,22 +7,10 @@ Utilizing cutting-edge technologies such as EJS, Node.js, Express.js, and MongoD
 
 💡 Key features:
 
-- Seamless user experience: Developed an intuitive interface to ensure smooth navigation and engagement.
-- Personalized quizzes: Implemented dynamic question generation based on user preferences and selected topics.
-- Robust backend: Leveraged Node.js and Express.js for efficient server-side operations, ensuring scalability and performance.
-- Data management: Integrated MongoDB to securely store and manage quiz data, facilitating seamless retrieval and analysis.
-
-
-
-## Demo 
-
-
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+-   Seamless user experience: Developed an intuitive interface to ensure smooth navigation and engagement.
+-   Personalized quizzes: Implemented dynamic question generation based on user preferences and selected topics.
+-   Robust backend: Leveraged Node.js and Express.js for efficient server-side operations, ensuring scalability and performance.
+-   Data management: Integrated MongoDB to securely store and manage quiz data, facilitating seamless retrieval and analysis.
 
 ## Installation
 
@@ -37,12 +24,13 @@ Install project dependencies with npm
 
 ```
   cd kenIT_Quiz
-  npm install 
+  npm install
 ```
 
 Start the server
+
 ```
-  npm start 
+  npm start
 ```
 
 Run project on own server
@@ -53,22 +41,20 @@ If, you need run on server, feel free to checkout `config.js` file and change `H
   HOSTIP: "127.0.0.1",
   PORT: 3535,
 ```
+
 ## Used By
 
 This project is used by:
 
-- VHNSNC (MCA Department)
-
+-   VHNSNC (MCA Department)
 
 ## Authors
 
-- [@dmmuralitharan](https://www.github.com/dmmuralitharan)
-
+-   [@dmmuralitharan](https://www.github.com/dmmuralitharan)
 
 ## 🔗 Links
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-
 
 ## Support
 
